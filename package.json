@@ -24,10 +24,6 @@
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
     "cypress": "cypress open"
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
   },
   "eslintConfig": {
     "extends": [
@@ -72,7 +68,7 @@
     "msw-storybook-addon": "^1.2.0"
   },
   "msw": {
-    "workerDirectory": "public"
+    "workerDirectory": "public",
     "@storybook/addon-actions": "^6.5.3",
     "@storybook/addon-essentials": "^6.5.3",
     "@storybook/addon-links": "^6.5.3",
