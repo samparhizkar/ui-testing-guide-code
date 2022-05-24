@@ -5,8 +5,6 @@ import { theme } from '../src/theme';
 
 initialize();
 
-import { theme } from '../src/theme';
-
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
   controls: {
@@ -26,9 +24,9 @@ export const parameters = {
 
 export const decorators = [
   (Story) => (
-    <ChakraProvider theme={theme}>
-      <Story />
-    </ChakraProvider>
+      <ChakraProvider theme={theme}>
+        <Story />
+      </ChakraProvider>
   ),
   mswDecorator,
 ];
